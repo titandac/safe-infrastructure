@@ -1,0 +1,29 @@
+[
+    {
+        "model": "chains.chain",
+        "pk": 588,
+        "fields": {
+            "relevance": 100,
+            "name": "Metis Stardust",
+            "short_name": "tmetis",
+            "description": "",
+            "l2": true,
+            "rpc_authentication": "",
+            "rpc_uri": "https://stardust.metis.io/?owner=588",
+            "safe_apps_rpc_authentication": "",
+            "safe_apps_rpc_uri": "",
+            "block_explorer_uri_address_template": "http://example.com",
+            "block_explorer_uri_tx_hash_template": "http://example.com",
+            "currency_name": "Metis",
+            "currency_symbol": "tMETIS",
+            "currency_decimals": 18,
+            "currency_logo_uri": "chains/4/currency_logo.jpg",
+            "transaction_service_uri": "http://nginx:8000/txs",
+            "vpc_transaction_service_uri": "http://nginx:8000/txs",
+            "theme_text_color": "#ffffff",
+            "theme_background_color": "#000000",
+            "ens_registry_address": null,
+            "recommended_master_copy_version": "1.3.0"
+        }
+    }
+]
