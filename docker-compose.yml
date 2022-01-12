@@ -21,7 +21,7 @@ services:
       - cgw-web
 
   db:
-    image: postgres:13-alpine
+    image: postgres:10-alpine
     ports:
       - "5432:5432"
     environment:
@@ -35,7 +35,7 @@ services:
     image: redis:alpine
 
   txs-web:
-    image: metissafe/safe-transaction-service:develop
+    image: u160xffff/transaction-service:3.5.1-metis
     env_file:
       - container_env_files/txs.env
     environment:
@@ -49,7 +49,7 @@ services:
     command: docker/web/run_web.sh
 
   txs-worker: &worker
-    image: metissafe/safe-transaction-service:develop
+    image: u160xffff/transaction-service:3.5.1-metis
     env_file:
       - container_env_files/txs.env
     environment:
