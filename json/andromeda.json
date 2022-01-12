@@ -1,0 +1,29 @@
+[
+    {
+        "model": "chains.chain",
+        "pk": 1088,
+        "fields": {
+            "relevance": 100,
+            "name": "Andromeda",
+            "short_name": "andromeda",
+            "description": "Metis Andromeda mainnet",
+            "l2": true,
+            "rpc_authentication": "NO_AUTHENTICATION",
+            "rpc_uri": "https://andromeda.metis.io/?owner=1088",
+            "safe_apps_rpc_authentication": "NO_AUTHENTICATION",
+            "safe_apps_rpc_uri": "https://andromeda.metis.io/?owner=1088",
+            "block_explorer_uri_address_template": "https://andromeda-explorer.metis.io/address/{{address}}",
+            "block_explorer_uri_tx_hash_template": "https://andromeda-explorer.metis.io/tx/{{txHash}}",
+            "currency_name": "Metis",
+            "currency_symbol": "METIS",
+            "currency_decimals": 18,
+            "currency_logo_uri": "chains/4/currency_logo.jpg",
+            "transaction_service_uri": "http://nginx:8000/txs",
+            "vpc_transaction_service_uri": "http://nginx:8000/txs",
+            "theme_text_color": "#2f043d",
+            "theme_background_color": "#a8fff6",
+            "ens_registry_address": null,
+            "recommended_master_copy_version": "1.3.0"
+        }
+    }
+]
